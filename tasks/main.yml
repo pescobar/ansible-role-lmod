@@ -1,2 +1,21 @@
 ---
 # tasks file for ansible-role-lmod
+
+- name: Add EPEL repo installing epel-release rpm
+  yum:
+    name: epel-release
+    state: installed
+  when: LMOD_ADD_EPEL_REPO
+
+- name: Install Lmod rpm
+  yum:
+    name: Lmod
+    state: installed
+
+- name: Deploy profile file with Lmod settings
+  template:
+    dest: /etc/profile.d/zzz_lmod_settings.sh
+    src: lmod_settings.sh.j2
+    owner: root
+    group: root
+    mode: 0644
