@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/pescobar/ansible-role-lmod.svg?branch=master)](https://travis-ci.org/pescobar/ansible-role-lmod)
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-pescobar.lmod-blue.svg)](https://galaxy.ansible.com/pescobar/lmod)
+
 ansible-role-lmod
 =========
 
