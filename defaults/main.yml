@@ -4,20 +4,20 @@
 # These are all the Lmod settings we will define as enviroment variables in /etc/profile.d/zzz_lmod_settings.sh
 # https://lmod.readthedocs.io/en/latest/090_configuring_lmod.html
 
-LMOD_AUTO_SWAP: false
+LMOD_AUTO_SWAP: no
 
-LMOD_CACHED_LOADS: true
+LMOD_CACHED_LOADS: yes
 
-LMOD_CASE_INDEPENDENT_SORTING: true
+LMOD_CASE_INDEPENDENT_SORTING: yes
 
-LMOD_DISABLE_NAME_AUTOSWAP: true
+LMOD_DISABLE_NAME_AUTOSWAP: yes
 
-LMOD_EXACT_MATCH: true
+LMOD_EXACT_MATCH: yes
 
-LMOD_MPATH_AVAIL: true
+LMOD_MPATH_AVAIL: yes
 
-LMOD_PIN_VERSIONS: true
+LMOD_PIN_VERSIONS: yes
 
 LMOD_MODULEPATH: "/soft/modules/all"
 
-LMOD_ADD_EPEL_REPO: true
+LMOD_ADD_EPEL_REPO: yes
